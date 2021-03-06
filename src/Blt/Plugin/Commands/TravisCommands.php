@@ -7,7 +7,7 @@ use Acquia\Blt\Robo\Exceptions\BltException;
 use Robo\Contract\VerbosityThresholdInterface;
 
 /**
- * Defines commands related to Probo.
+ * Defines commands related to Travis CI.
  */
 class TravisCommands extends BltTasks {
 

@@ -13,7 +13,7 @@ In your project, require the plugin with Composer:
 
 `composer require acquia/blt-travis`
 
-Initialize the Probo integration by calling `recipes:ci:travis:init`, which is provided by this plugin:
+Initialize the Travis CI integration by calling `recipes:ci:travis:init`, which is provided by this plugin:
 
 `blt recipes:ci:travis:init`
 

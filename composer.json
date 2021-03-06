@@ -1,7 +1,7 @@
 {
   "name": "acquia/blt-travis",
   "description": "Travis CI integration for Acquia BLT",
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0-or-later",
   "authors":[
     {
       "name": "Acquia Engineering",
@@ -9,6 +9,9 @@
       "role": "Maintainer"
     }
   ],
+  "config": {
+    "sort-packages": true
+  },
   "require": {},
   "autoload": {
     "psr-4": {
