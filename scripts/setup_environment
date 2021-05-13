@@ -29,6 +29,6 @@ rm -f ~/.drush/cache/download/*---updates.drupal.org-release-history-*
 # - git diff --exit-code
 
 # Installs chromedriver to vendor/bin.
-${BLT_DIR}/scripts/linux/install-chrome.sh ${COMPOSER_BIN}
+${BLT_TRAVIS_DIR}/scripts/install-chrome.sh ${COMPOSER_BIN}
 
 set +ev
