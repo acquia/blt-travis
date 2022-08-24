@@ -9,7 +9,7 @@ class TravisDetector extends EnvironmentDetector {
     return isset($_ENV['TRAVIS']) ? 'travis' : null;
   }
 
-  public static function getCiSettingsFile() {
+  public static function getCiSettingsFile() : string {
     if (self::getCiEnv() === 'travis') {
       return sprintf('%s/vendor/acquia/blt-travis/settings/travis.settings.php', dirname(DRUPAL_ROOT));
     }
