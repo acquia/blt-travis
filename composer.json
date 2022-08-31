@@ -13,6 +13,9 @@
     "sort-packages": true
   },
   "require": {},
+  "conflict": {
+    "acquia/blt": "<13.5.1"
+  },
   "autoload": {
     "psr-4": {
       "Acquia\\BltTravis\\": "./src/"
