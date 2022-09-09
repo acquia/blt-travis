@@ -6,7 +6,7 @@ use Acquia\Blt\Robo\Common\EnvironmentDetector;
 
 class TravisDetector extends EnvironmentDetector {
   public static function getCiEnv() {
-    return isset($_ENV['TRAVIS']) ? 'travis' : null;
+    return getenv('TRAVIS') ? 'travis' : null;
   }
 
   public static function getCiSettingsFile(): string {
